@@ -142,7 +142,7 @@ function App() {
               />
               <Button
                 handleClick={handleClick}
-                buttonLabel="x"
+                buttonLabel="*"
                 themeDark={themeDark}
               />
               <Button
