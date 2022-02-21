@@ -1,0 +1,26 @@
+.calc-screen__container {
+    width: 100%;
+    height: 110px;
+    background-color: #23293B;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.calc__output {
+    font-size: 52px;
+    margin: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .calc-screen__container{
+    height: 96px;
+  }
+    .calc__output {
+      margin: 20px;
+      font-size: 48px;
+    }
+  }

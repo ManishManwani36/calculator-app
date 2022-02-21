@@ -1,0 +1,31 @@
+.calc__button {
+  width: calc(25% - 20px);
+  margin: 10px;
+  padding: 16px 0 8px 0;
+  font-size: 28px;
+  background-color: #e9e3dc;
+  color: #474c60;
+  flex-grow: 1;
+  border: none;
+  border-radius: 8px;
+  border-bottom: 4px solid #b2a498;
+  transition: all 200ms ease-in-out;
+}
+
+.calc__button:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}
+
+.calc__button:active {
+  transform: scale(0.93);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .calc__button {
+    width: calc(25% - 12px);
+    margin: 6px;
+    font-size: 24px;
+  }
+}
